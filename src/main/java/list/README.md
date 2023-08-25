@@ -1,7 +1,7 @@
 # List Interface
 
 <p align="center">
-<img src="C:\Users\santo\OneDrive\Área de Trabalho\Programação\Projetos Java\collections-java-api-2023\.idea\list-interface-hierarchy.png" alt="List interface hierarchy Java"><br>
+<img src="C:\Users\santo\OneDrive\Área de Trabalho\Programação\Projetos Java\collections-java-api-2023\imagens\list-interface-hierarchy.png" alt="List interface hierarchy Java"><br>
 <a href="https://data-flair.training/blogs/collection-framework-in-java/">Hierarchy of Collection Framework in Java </a>
 </p>
 
@@ -93,8 +93,3 @@ Cada item é representado por uma classe chamada "Item" que possui atributos com
 - `ordenarAscendente()`: Ordena os números da lista em ordem ascendente usando a interface Comparable e a class Collections.
 - `ordenarDescendente()`: Ordena os números da lista em ordem descendente usando um Comparable e a class Collections.
 </p>
-
----
-### Dúvidas e Suporte
-
-Caso você tenha alguma dúvida, problema ou sugestão, fique à vontade para abrir uma issue no repositório. Espero conseguir te ajudar! (:
