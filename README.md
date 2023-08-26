@@ -5,29 +5,17 @@
 - O núcleo principal das coleções é formado pelas interfaces da figura a abaixo, essas interfaces permitem manipular a coleção independente do nível de detalhe que elas representam.
 - Temos quatro grandes tipos de coleções: `List` (lista), `Set` (conjunto), `Queue` (fila) e `Map` (mapa), a partir dessas interfaces, temos muitas subclasses concretas que implementam varias formas diferentes de se trabalhar com cada coleção.
 
-<p align="center">
-<img src="![collection-framework](https://github.com/santosdeivissonsilva/collections-java-api-2023/assets/128804983/5ab6e2e7-b4b3-4a3a-aaa6-5153faf1ba91)
-"><br>
-<a href="https://data-flair.training/blogs/collection-framework-in-java/">Hierarchy of Collection Framework in Java </a>
-</p>
-
 
 - Todas as interfaces e classes são encontradas dentro do pacote (package) `java.util`.
 - Embora a interface `Map` não ser filha direta da interface `Collection` ela também é considerada uma coleção devido a sua função.
 
-<p align="center">
-<img src="![collection-framework-methods](https://github.com/santosdeivissonsilva/collections-java-api-2023/assets/128804983/af8bd30c-a030-43f4-87c6-5a6dc65113d2)
-" alt="List interface hierarchy Java"><br>
-<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html">Method Sumary Collection Interface</a>
-</p>
 
 ---
 
 # List Interface
 
 <p align="center">
-<img src="![list-interface-hierarchy](https://github.com/santosdeivissonsilva/collections-java-api-2023/assets/128804983/9edf080d-ddf9-43bf-ab32-5ec3cc792886)
-" alt="List interface hierarchy Java"><br>
+<img src="![list-interface-hierarchy](https://github.com/santosdeivissonsilva/collections-java-api-2023/assets/128804983/9edf080d-ddf9-43bf-ab32-5ec3cc792886)" alt="List interface hierarchy Java"><br>
 <a href="https://data-flair.training/blogs/collection-framework-in-java/">Hierarchy of Collection Framework in Java </a>
 </p>
 
@@ -119,12 +107,6 @@ Cada item é representado por uma classe chamada "Item" que possui atributos com
 ---
 
 # SET
-
-<p align="center">
-<img src="![set-interface-hierarchy](https://github.com/santosdeivissonsilva/collections-java-api-2023/assets/128804983/c27f6eb7-5274-4635-8387-089697701ea4)
-" alt="Set interface hierarchy Java"><br>
-<a href="https://data-flair.training/blogs/collection-framework-in-java/">Hierarchy of Collection Framework in Java </a>
-</p>
 
 - A interface `Set` é uma coleção que não pode conter elementos duplicados.
 - Essa interface representa o conceito matemático de um conjunto e é usada para representar conjuntos, como um baralho de cartas.
@@ -231,12 +213,6 @@ Crie uma classe chamada "GerenciadorAlunos" que irá lidar com uma lista de alun
 ---
 
 # MAP
-
-<p align="center">
-<img src="![map-interface-hierarchy](https://github.com/santosdeivissonsilva/collections-java-api-2023/assets/128804983/6cda8042-311d-4ae3-b999-3b86fb705ec9)
-" alt="Map interface hierarchy Java"><br>
-<a href="https://data-flair.training/blogs/collection-framework-in-java/">Hierarchy of Collection Framework in Java </a>
-</p>
 
 - A interface `Map` é usada para mapear dados na forma de chaves e valores.
 - O `Map` do Java é um objeto que mapeia chaves para valores.
